@@ -1,0 +1,5 @@
+$vw_fontsize:375;
+
+@function vw($px) {
+  @return ($px/$vw_fontsize) * 100vw;
+};
